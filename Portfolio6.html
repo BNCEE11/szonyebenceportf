@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport"content="width=device-width, initial-scale=1.0"/>
+<link rel="icon" type="png" href="logo.png">
+<title>Portfólió Szőnye Bence</title>
+<style>
+
+  body {
+    margin: 0;
+    font-family: sans-serif;
+    scroll-behavior: smooth;
+    color: white;
+    background: linear-gradient(to bottom, #0E0D0E, #130294);
+    background-attachment: fixed; 
+  }
+
+
+
+  header {
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+  }
+
+  header h1 {
+    margin: 3vh 0 1vh 0;
+    font-size: 5vw;
+    line-height: 1.2;
+    text-align: center;
+  }
+
+  nav {
+    text-align: center;
+    margin: 20px auto;
+    padding: 20px;
+    background: #060554; 
+    padding: 1vh 0;
+    border-radius: 0px;
+    box-shadow: 0 0 50px rgba(0,0,0,0.3);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+  }
+
+  nav a {
+    text-decoration: none;
+    margin: 0 0.5vw;
+    padding: 1vh 3vw;
+    font-size: 1.8vw;
+    border-radius: 15px;
+    background: rgba(19, 2, 148, 0.3); 
+    box-shadow: 0 0 15px rgba(0,0,0,0.5);
+    color: #FEFEFE;      
+    display: inline-block;
+    transition: 0.3s;
+  }
+
+  nav a:hover {
+    background: rgba(19, 2, 148, 0.7); 
+    color: #FEFEFE;
+  }
+
+  section {
+    padding: 0vh 4vw;
+    text-align: left;
+    scroll-margin-top: 80px;
+  }
+
+  section h1 {
+    font-size: 3vw;
+    padding: 0vh 2vw;
+    text-align: center;
+    margin: 3vh 0 3vh 0;
+  }
+
+  section p {
+    font-size: 1vw;
+  }
+
+  .szoveg-blokk {
+    background: rgba(255,255,255,0.05);
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 15px;
+    max-width: 900px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.3);
+  }
+
+
+  ul {
+    list-style-position: inside;
+    padding-left: 0; 
+    margin: 0.5vh 0 0 0; 
+    text-align: left; 
+    display: inline-block; 
+  }
+
+  li {
+    margin: 0vh 0; 
+    font-size: 1vw; 
+  }
+
+  .kepek {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 15px;
+      margin-bottom: 2vh;
+   }
+
+  .kepek img {
+      width: 100%;
+      height: 250px;
+      object-fit: cover;
+      object-position: center;
+      border-radius: 10px;
+   }
+
+   .profilkep {
+      width: 240px;
+      height: 240px;
+      object-fit: cover;
+      object-position: top;
+      border-radius: 50%;
+      margin-bottom: 20px;
+      box-shadow: 0 0 70px rgba(0,0,0,0.5);
+   }
+
+   footer {
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+      background: #060554;
+      box-shadow: 0 0 50px rgba(0,0,0,0.5);
+   }
+
+   footer p {
+      margin: 0;
+      font-size: 0.9rem;
+      color: #ccc;
+   }
+
+   @media (max-width: 768px) {
+      header h1 { font-size: 7vw; }
+      nav a { font-size: 3vw; padding: 1vh 2vw; margin: 0 0.5vw; }
+      section h1 { font-size: 6vw; }
+      section p { font-size: 3vw; }
+      li { font-size: 3vw; }
+   }
+
+   @media (max-width: 480px) {
+      header h1 { font-size: 9vw; }
+      nav a { font-size: 4vw; padding: 1vh 1vw; margin: 0 0.5vw; }
+      section h1 { font-size: 8vw; }
+      section p { font-size: 4vw; }
+      li { font-size: 4vw; }
+   }
+
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Portfólió</h1>
+</header>
+
+<nav>
+  <a href="#bemutat">Bemutatkozás</a>
+  <a href="#tanulmanyaim">Tanulmányaim</a>
+  <a href="#dualis">Duális képzés</a>
+  <a href="#munkaim">Munkáim</a>
+</nav>
+
+<section id="bemutat">
+  <h1>Bemutatkozás</h1>
+  <div class="szoveg-blokk">
+  <img src="en.jpg" alt="Szőnye Bence" class="profilkep">
+  <p>Szőnye Bence vagyok, a VVSZC Gépipari és Informatikai technikum végzős diákja Ipari informatikai technikus szakon.</p>
+  <p>Néhány információ rólam:</p>
+  <ul>
+  <li>19 éves vagyok</li>
+  <li>Jákon élek</li>
+  <li>Duális képzésben tanulok a TDK-ban</li>
+  <li>Elérhetőségem.: +36 30 581 3528</li>
+  </ul>
+  <p>Erősségeim az elektronikus kötések minden formája valamint a Siemens LOGO programozás.</p>
+  <p>Szeretek csapatban dolgozni és kész vagyok mindig valami újat tanulni.</p>
+  <p>A jövőmet a vasút világában szeretném folytatni, majd a későbbiekben egy Járműmérnöki diplomát szerezni.</p>
+  </div>
+</section>
+
+<section id="tanulmanyaim">
+  <h1>Tanulmányaim</h1>
+  <div class="szoveg-blokk">
+  <p>Tanulmányaimat 2021-ben kezdtem meg a Gépipariban. Az első két évben csak az iskolában végeztem a tanulmányaim, ahol alapismereteket szereztem fémmegmunkálásból valamint elektronikából.</p>
+  <p>Megtanultam panelokat forrasztani például készítettem közlekedési lámpát, szerencsekereket és sok egyéb játékos és látványos panelt. Bővült a tudásom kapcsolók bekötésével is, használtam egypólusú kapcsolót, kétpólusú kapcsolót, váltókapcsolót, keresztkapcsolót.</p>
+  <p>Természetesen részt vettem elméleti oktatáson is ahol megtanultam használni az ohm törvényt, Kirchoff első és második törvényét, valamint sokat használtam a szuperpozíció tételt is.</p>
+  <p>Fémmegmunkálásból különböző alkatrészeket, munkadarabokat készítettem kézi megmunkálással, ehhez tudnom kellett használni a tolómérőt, különböző reszelőket valamint az oszlopos fúrót. Természetesen minden munkadarab műszaki rajz alapján készült el, így volt műszaki rajz tantárgyam is ahol ezeket a munkadarabokat terveztem, rajzoltam le.</p>
+  <p>Én és két további osztálytársam 10. évfolyam végén részt vett egy szakmai versenyen amely meghatározta későbbi tanulmányaimat, ez a verseny pedig a MAVIR által szervezett Mesterek viadala verseny volt. Teljesítményünk egy különdíj eléréséhez volt elég. Ezen a versenyen a Szombathelyi TDK Hungary Components Kft. támogatott minket akik a teljesítményünk miatt meg is adták a lehetőséget, hogy a következő tanévünket velük kezdjük meg duális képzésben.</p>
+  <p>A TDK Hungary Components KFT egy Szombathelyi multinacionális cég, ahol kondenzátorokat gyártanak, elektromos zajszűröket, valamint szenzorokat és tekercseket.
+  <p>Az első két évben szerzett tudásunkat 10. osztályban bizonyítanunk kellett az ágazati vizsga során ami kitért az összes tanult szakmai tudásunkra. Sikeresen teljesítettem is ezt a vizsgát elég szép eredményekkel.</p>
+  <p>11. évfolyamban már egy sokkal komolyabb út vette kezdetét, szakma orientáltabb tantárgyakat kaptam. Tanultam analóg áramkörökról valamint digitális áramkörökről, programozási alapokat tanultam Pythonban. Tanulmányom szakmai téren az iskolában ebben az évben véget is ért.
+  </div>
+</section>
+
+<section id="dualis">
+  <h1>Duális képzés</h1>
+  <div class="szoveg-blokk">
+  <p>Duális tanulmányaimat a TDK Hungary Components Kft-ben folytatom 11. évfolyam óta. </p>
+  <p>11. évfolyamban megtanultam használni az oszciloszkópot, valamint a digitálsi technika világában is elmélyültünk, megtanultam használni az igazságtáblákat, Karnaug táblákat valamint a VK táblákat.</p>
+  <p>Programozás terén is bővült a tudásom ugyanis megtanultam programozni CX programmerben amely programokat Omron PLC-hez használtam, a progarmozáshoz nagy segítség volt, hogy megtanultam a folyamatábra használatát is.</p>
+  <p>Elméleti tudásom is sokat bővült ebben a tanévben tanultam a kondenzátorokról, tekercsekről, ellenállásokról, valamint a vezetők, félvezetőkről is.</p>
+  <p>Ennek az évnek méltó lezárása volt a nyári gyakorlat ahol még többet tudtam fejlődni, első pár hétben újra használnom kellett a kézi fémmegmunkálásból szerzett tudásom ahol egy fém alkatrészt kellett elkészítenem. Valamint hajlítottunk egy kis alumínium tárolót is.</p>
+  <p>A további hetekben rengeteg elektronikai kötést végeztem el, különböző érzékelőket kötöttem be bemutató táblára, például hőmérséklet érzékelőket, távolság érzékelőket, nyomás érzékelőt valmint fénykapukat is.</p>
+  <p>Készítettem PLC-s bemutató táblákat is ahol Siemens LOGO-kat kellet bekötnöm és tesztelnem. Ezekre a táblákra később  egy Omron PLC-t is fel kellett szerelnem.</p>
+  <p>Az igazi kihívást utolsó héten kaptam amikor egy pneumatikus bemutató táblát kellett leprogramoznom Siemens LOGO-ban, több munkahengert kellett kezelnem egy kis joystick-al. Azonban ez sem jelentett problémát egy elég bonyolult de jól műküödő programot sikerült készítenem és mai napig a LOGO programozást érzem a legnagyobb erősségemnek.</p>
+  <p>12. évfolyamban újabb kihívásokat kaptam ugyanis heti egy nap teljesen ráfókuszáltunk a programozás világára, ahol megismerkedtem a C és a C++ programozással valamint később az adatbázis kezelés szépségeit is megismertem.</p>
+  <p>A másik gyakorlati napomon hasonló dolgokat tanultunk mint előző évben csak magasabb szinten, sokkal bonyolultabb programokat készítettem CX programmerben mint például egy teljes garázskapu programozása és egy parkolóház sorompó rendszere. Valamint HTML programozási ismereteket is szerezthettem.</p>
+  <p>Ez évi nyári gyakorlatom már a gyártás területén töltöttem elektromos karbantartók között a TDK Drossel részlegén ahol elektromos zajszűröket gyártanak. Nagyon jól sikerült beilleszkednem már az első héten a karbantartói életbe ugyanis egy gép teljes leállításában, programjának biztonsági mentésében, és szétszerelésében segíthettem.</p>
+  <p>További karbantartási munkákat is végeztem a gyártás területén mint például érzékelő cserét hajtottam végig egy gyártósoron, vagy például pedál cserét, valamint tápot illetve PLC-t cseréltem egy tekercselő gépen.</p>
+  <p>Az idei, utolsó évemben buszrendszerekről tanultam valamint kommunikációs rendszerekről szereztem ismereteket mint például I2C, SPI, CAN kommunkáció. Valamint megismerkedtem az Arduino programozással is és különböző játékos kőtéseket is végrehajtottunk bradboardon mint például szervó kötés és egy teljes kereszteződés közúti lámpáinak programozása.</p>
+  <p>Kötöttünk be frekvenciaváltót három fázisú motorral kombinálva.</p>
+  </div>
+</section>
+
+<section id="munkaim">
+  <h1>Munkáim</h1>
+  <div class="kepek szoveg-blokk">
+    <img src="izz.jpg" alt="">
+    <img src="fem.jpg" alt="">
+    <img src="ark.jpg" alt="">
+    <img src="erz.jpg" alt="">
+    <img src="fal.jpg" alt="">
+    <img src="mot.jpg" alt="">
+    <img src="plc.jpg" alt="">
+    <img src="prog2.jpg" alt="">
+    <img src="pne.jpg" alt="">
+  </div>
+
+</section>
+
+<footer>
+  <p>© 2025-2026 Szőnye Bence</p>
+</footer>
+
+</body>
+</html>
