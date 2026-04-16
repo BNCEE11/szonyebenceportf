@@ -29,12 +29,16 @@
 
   header h1 {
     margin: 3vh 0 1vh 0;
-    font-size: 5vw;
+    font-size: 32px;
     line-height: 1.2;
     text-align: center;
   }
 
   nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
     text-align: center;
     margin: 20px auto;
     padding: 20px;
@@ -50,8 +54,8 @@
   nav a {
     text-decoration: none;
     margin: 0 0.5vw;
-    padding: 1vh 3vw;
-    font-size: 1.8vw;
+    padding: 10px 15px;
+    font-size: 16px;
     border-radius: 15px;
     background: rgba(19, 2, 148, 0.3); 
     box-shadow: 0 0 15px rgba(0,0,0,0.5);
@@ -72,14 +76,14 @@
   }
 
   section h1 {
-    font-size: 3vw;
+    font-size: 24px;
     padding: 0vh 2vw;
     text-align: center;
     margin: 3vh 0 3vh 0;
   }
 
   section p {
-    font-size: 1vw;
+    font-size: 16px;
   }
 
   .szoveg-blokk {
@@ -102,7 +106,7 @@
 
   li {
     margin: 0vh 0; 
-    font-size: 1vw; 
+    font-size: 16px; 
   }
 
   .kepek {
@@ -146,21 +150,30 @@
    }
 
    @media (max-width: 768px) {
-      header h1 { font-size: 7vw; }
-      nav a { font-size: 3vw; padding: 1vh 2vw; margin: 0 0.5vw; }
-      section h1 { font-size: 6vw; }
-      section p { font-size: 3vw; }
-      li { font-size: 3vw; }
-   }
+      nav {
+      flex-direction: column;
+      align-items: center;}
+     
+      nav a { 
+      width: 80%;
+      text-align: center;
+      font-size: 16px;}
+     
+      .kepek {
+      grid-template-columns: 1fr;}
+     
+      .kepek img {
+      height: auto;}
 
-   @media (max-width: 480px) {
-      header h1 { font-size: 9vw; }
-      nav a { font-size: 4vw; padding: 1vh 1vw; margin: 0 0.5vw; }
-      section h1 { font-size: 8vw; }
-      section p { font-size: 4vw; }
-      li { font-size: 4vw; }
+      .profilkep {
+      width: 160px;
+      height: 160px;}
+     
+      header h1 { font-size: 28px; }
+      section h1 { font-size: 22px; }
+      section p { font-size: 15px; }
+      li { font-size: 15px; }
    }
-
 </style>
 </head>
 <body>
